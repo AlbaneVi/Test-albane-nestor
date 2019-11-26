@@ -1,0 +1,28 @@
+
+.cards{
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  margin: 30px 40px;
+  padding: 10px 10px;
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.16);
+}
+
+.room-title{
+
+}
+
+.room-adress{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.room-status{
+
+}

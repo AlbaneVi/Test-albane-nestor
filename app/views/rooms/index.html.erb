@@ -1,0 +1,16 @@
+<div class="cards">
+  <% @rooms.each do |room| %>
+    <div class="card">
+      <div class="room-title"><%= room.name %></div>
+      <div class="room-adress">Adresse : <%= room.address %>
+      <span><%= room.zip %> <%= room.city %></div>
+      <div><%= room.status %></div>
+    </div>
+  <% end %>
+
+
+
+</div>
+
+
+
